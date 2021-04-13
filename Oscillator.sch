@@ -25,4 +25,6 @@ U 6054CAA6
 F0 "main" 50
 F1 "main.sch" 50
 $EndSheet
+Text Notes 7350 7500 0    50   ~ 0
+Oscillator v1
 $EndSCHEMATC
