@@ -1,0 +1,76 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/Users/defracm1/Documents/nonsense/Synth Designs/Oscillator/Oscillator/Oscillator.sch</h1>
+    <p>Monday, March 29, 2021 at 10:22:33 AM</p>
+    <p>Eeschema (5.1.7-0-10_14)</p>
+    <p><b>Component Count:</b>227</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C201, C403, C404, C501, C502</td><td>5</td><td>.1u</td><td>Device:C</td><td>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C202, C203, C504, C505, C604</td><td>5</td><td>1u</td><td>Device:CP1</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</td><td>Polarized capacitor, US symbol</td><td></td></tr>
+    <tr><td>C503</td><td>1</td><td>0.002u</td><td>Device:C</td><td>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C506</td><td>1</td><td>10p</td><td>Device:C</td><td>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C507, C508, C509, C510, C602, C605, C606, C607, C608, C609, C610, C611, C612, C613, C614, C706, C708, C709, C710, C711</td><td>20</td><td>0.1u</td><td>Device:C</td><td>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C601, C603</td><td>2</td><td>10u</td><td>Device:C</td><td>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C701, C703, C705</td><td>3</td><td>100p</td><td>Device:C</td><td>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C702</td><td>1</td><td>0.005u</td><td>Device:C</td><td>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C704</td><td>1</td><td>0.001u</td><td>Device:C</td><td>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C707</td><td>1</td><td>4.7p</td><td>Device:C</td><td>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>D201, D202</td><td>2</td><td>LED</td><td>Device:LED</td><td>LED_THT:LED_D5.0mm</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D203, D204</td><td>2</td><td>NZX5V1B</td><td>Device:D_Zener</td><td>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</td><td>Zener diode</td><td></td></tr>
+    <tr><td>D501, D502, D503, D504, D505, D506, D601, D603, D604, D701, D702</td><td>11</td><td>D</td><td>Device:D</td><td>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</td><td>Diode</td><td></td></tr>
+    <tr><td>D602</td><td>1</td><td>BZX55C10</td><td>Device:D_Zener</td><td>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</td><td>Zener diode</td><td></td></tr>
+    <tr><td>J201, J202, J203, J205, J206, J208, J209, J210</td><td>8</td><td>AudioJack2</td><td>Connector:AudioJack2</td><td>ACJM-MV35:ACJM-MV35</td><td>Audio Jack, 2 Poles (Mono / TS)</td><td></td></tr>
+    <tr><td>J204, J301</td><td>2</td><td>Conn_01x14</td><td>Connector_Generic:Conn_01x14</td><td>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</td><td>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J207, J302</td><td>2</td><td>Conn_01x09</td><td>Connector_Generic:Conn_01x09</td><td>Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical</td><td>Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J303</td><td>1</td><td>Conn_02x05_Odd_Even</td><td>Connector_Generic:Conn_02x05_Odd_Even</td><td>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</td><td>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>Q401, Q403, Q603</td><td>3</td><td>2N3904</td><td>Transistor_BJT:2N3904</td><td>Package_TO_SOT_THT:TO-92_Inline</td><td>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</td><td></td></tr>
+    <tr><td>Q402</td><td>1</td><td>2N3906</td><td>Transistor_BJT:2N3906</td><td>Package_TO_SOT_THT:TO-92_Inline</td><td>-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92</td><td></td></tr>
+    <tr><td>Q601, Q602, Q701</td><td>3</td><td>Q_NJFET_DSG</td><td>Device:Q_NJFET_DSG</td><td>Package_TO_SOT_THT:TO-92_Inline</td><td>N-JFET transistor, drain/source/gate</td><td></td></tr>
+    <tr><td>R201, R202, R605, R614</td><td>4</td><td>200k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R203, R415, R503, R617, R618, R633, R634, R643</td><td>8</td><td>47k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R204, R206, R207, R208, R502, R504, R505, R506, R509, R522, R523, R524, R602, R626, R627, R629, R632, R639, R640, R641, R644, R710, R716, R717</td><td>24</td><td>10k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R205, R416, R419, R507, R513, R514, R518, R714</td><td>8</td><td>1k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R301, R302, R303, R401, R402, R403, R404, R405, R414, R417, R420, R501, R515, R520, R521, R601, R609, R612, R615, R623, R624, R625, R635, R636, R637, R701, R703, R704, R705, R712, R715</td><td>31</td><td>100k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R406, R407, R413, R707, R718</td><td>5</td><td>2k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R408</td><td>1</td><td>150</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R409, R610, R613, R621, R628</td><td>5</td><td>120k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R410, R508</td><td>2</td><td>470k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R411</td><td>1</td><td>2M</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R412, R510, R511, R512, R603, R608, R642</td><td>7</td><td>20k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R418, R519, R526, R709</td><td>4</td><td>4.7k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R516</td><td>1</td><td>130k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R517, R604, R611, R702, R706, R711, R719</td><td>7</td><td>1M</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R525</td><td>1</td><td>10M</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R527, R619</td><td>2</td><td>3k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R606</td><td>1</td><td>180k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R607, R631, R638</td><td>3</td><td>3M</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R616, R622, R630</td><td>3</td><td>39k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R620</td><td>1</td><td>33k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R708</td><td>1</td><td>475</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R713</td><td>1</td><td>18k</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>RV201, RV202, RV203, RV204</td><td>4</td><td>100k</td><td>Device:R_POT_US</td><td>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</td><td>Potentiometer, US symbol</td><td></td></tr>
+    <tr><td>RV401</td><td>1</td><td>2k</td><td>Device:R_POT_US</td><td>Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal</td><td>Potentiometer, US symbol</td><td></td></tr>
+    <tr><td>RV402, RV503, RV504, RV506, RV601, RV602, RV702</td><td>7</td><td>100k</td><td>Device:R_POT_US</td><td>Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal</td><td>Potentiometer, US symbol</td><td></td></tr>
+    <tr><td>RV501, RV502</td><td>2</td><td>10k</td><td>Device:R_POT_US</td><td>Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal</td><td>Potentiometer, US symbol</td><td></td></tr>
+    <tr><td>RV505</td><td>1</td><td>1M</td><td>Device:R_POT_US</td><td>Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal</td><td>Potentiometer, US symbol</td><td></td></tr>
+    <tr><td>RV701</td><td>1</td><td>100</td><td>Device:R_POT_US</td><td>Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal</td><td>Potentiometer, US symbol</td><td></td></tr>
+    <tr><td>SW201</td><td>1</td><td>SR1712F-0204-20F0A-N9-N-027</td><td>SR1712F-0204-20F0A-N9-N-027:SR1712F-0204-20F0A-N9-N-027</td><td>SR1712F-0204-20F0A-N9-N-027:SR1712F-0204-20F0A-N9-N-027</td><td></td><td></td></tr>
+    <tr><td>U201, U703</td><td>2</td><td>TL072</td><td>Amplifier_Operational:TL072</td><td>Package_DIP:DIP-8_W7.62mm</td><td>Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8</td><td></td></tr>
+    <tr><td>U402, U502</td><td>2</td><td>LM13700</td><td>Amplifier_Operational:LM13700</td><td>Package_DIP:DIP-16_W7.62mm</td><td>Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16</td><td></td></tr>
+    <tr><td>U501, U503, U601, U603, U605</td><td>5</td><td>TL074</td><td>Amplifier_Operational:TL074</td><td>Package_DIP:DIP-14_W7.62mm</td><td>Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14</td><td></td></tr>
+    <tr><td>U602</td><td>1</td><td>LM339</td><td>Comparator:LM339</td><td>Package_DIP:DIP-14_W7.62mm</td><td>Quad Differential Comparators, SOIC-14/TSSOP-14</td><td></td></tr>
+    <tr><td>U604</td><td>1</td><td>4066</td><td>4xxx:4066</td><td>Package_DIP:DIP-14_W7.62mm</td><td>Quad Analog Switches</td><td></td></tr>
+    <tr><td>U701</td><td>1</td><td>OP275</td><td>Amplifier_Operational:OP275</td><td>Package_DIP:DIP-8_W7.62mm</td><td>Dual Bipolar/JFET, Audio Operational Amplifier, DIP-8/SOIC-8</td><td></td></tr>
+    <tr><td>U702</td><td>1</td><td>DMMT3904W</td><td>DMMT3904W:DMMT3904W</td><td>Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering</td><td></td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

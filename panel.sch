@@ -1,0 +1,1152 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_POT_US RV?
+U 1 1 60596266
+P 8350 3950
+AR Path="/6035B139/60596266" Ref="RV?"  Part="1" 
+AR Path="/60596266" Ref="RV?"  Part="1" 
+AR Path="/6054BDA2/60596266" Ref="RV204"  Part="1" 
+F 0 "RV204" H 8283 3996 50  0000 R CNN
+F 1 "100k" H 8283 3905 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 8350 3950 50  0001 C CNN
+F 3 "~" H 8350 3950 50  0001 C CNN
+	1    8350 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3750 8350 3800
+Wire Wire Line
+	8350 4150 8350 4100
+$Comp
+L power:+12V #PWR?
+U 1 1 6059626E
+P 8350 3750
+AR Path="/6035B139/6059626E" Ref="#PWR?"  Part="1" 
+AR Path="/6059626E" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/6059626E" Ref="#PWR0223"  Part="1" 
+F 0 "#PWR0223" H 8350 3600 50  0001 C CNN
+F 1 "+12V" H 8365 3923 50  0000 C CNN
+F 2 "" H 8350 3750 50  0001 C CNN
+F 3 "" H 8350 3750 50  0001 C CNN
+	1    8350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 60596274
+P 8350 4150
+AR Path="/6035B139/60596274" Ref="#PWR?"  Part="1" 
+AR Path="/60596274" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/60596274" Ref="#PWR0224"  Part="1" 
+F 0 "#PWR0224" H 8350 4250 50  0001 C CNN
+F 1 "-12V" H 8365 4323 50  0000 C CNN
+F 2 "" H 8350 4150 50  0001 C CNN
+F 3 "" H 8350 4150 50  0001 C CNN
+	1    8350 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8600 3950 8500 3950
+$Comp
+L Device:R_POT_US RV?
+U 1 1 6059627B
+P 900 3450
+AR Path="/6059627B" Ref="RV?"  Part="1" 
+AR Path="/6054BDA2/6059627B" Ref="RV201"  Part="1" 
+F 0 "RV201" H 833 3496 50  0000 R CNN
+F 1 "100k" H 833 3405 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 900 3450 50  0001 C CNN
+F 3 "~" H 900 3450 50  0001 C CNN
+	1    900  3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_US RV?
+U 1 1 60596281
+P 1550 3450
+AR Path="/60596281" Ref="RV?"  Part="1" 
+AR Path="/6054BDA2/60596281" Ref="RV202"  Part="1" 
+F 0 "RV202" H 1483 3496 50  0000 R CNN
+F 1 "100k" H 1483 3405 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 1550 3450 50  0001 C CNN
+F 3 "~" H 1550 3450 50  0001 C CNN
+	1    1550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60596287
+P 1550 3050
+AR Path="/60596287" Ref="R?"  Part="1" 
+AR Path="/6054BDA2/60596287" Ref="R203"  Part="1" 
+F 0 "R203" H 1618 3096 50  0000 L CNN
+F 1 "47k" H 1618 3005 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1590 3040 50  0001 C CNN
+F 3 "~" H 1550 3050 50  0001 C CNN
+	1    1550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6059628D
+P 1550 3850
+AR Path="/6059628D" Ref="R?"  Part="1" 
+AR Path="/6054BDA2/6059628D" Ref="R204"  Part="1" 
+F 0 "R204" H 1618 3896 50  0000 L CNN
+F 1 "10k" H 1618 3805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1590 3840 50  0001 C CNN
+F 3 "~" H 1550 3850 50  0001 C CNN
+	1    1550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60596293
+P 900 3050
+AR Path="/60596293" Ref="R?"  Part="1" 
+AR Path="/6054BDA2/60596293" Ref="R201"  Part="1" 
+F 0 "R201" H 968 3096 50  0000 L CNN
+F 1 "200k" H 968 3005 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 940 3040 50  0001 C CNN
+F 3 "~" H 900 3050 50  0001 C CNN
+	1    900  3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60596299
+P 900 3850
+AR Path="/60596299" Ref="R?"  Part="1" 
+AR Path="/6054BDA2/60596299" Ref="R202"  Part="1" 
+F 0 "R202" H 968 3896 50  0000 L CNN
+F 1 "200k" H 968 3805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 940 3840 50  0001 C CNN
+F 3 "~" H 900 3850 50  0001 C CNN
+	1    900  3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3200 1550 3300
+Wire Wire Line
+	1550 3600 1550 3700
+Wire Wire Line
+	1050 3450 1200 3450
+Wire Wire Line
+	900  3600 900  3700
+Wire Wire Line
+	900  3300 900  3200
+Wire Wire Line
+	900  2800 900  2900
+Wire Wire Line
+	900  4100 900  4000
+Wire Wire Line
+	1550 2800 1550 2900
+Wire Wire Line
+	1550 4100 1550 4000
+$Comp
+L power:-12V #PWR?
+U 1 1 605962A8
+P 900 4100
+AR Path="/605962A8" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/605962A8" Ref="#PWR0202"  Part="1" 
+F 0 "#PWR0202" H 900 4200 50  0001 C CNN
+F 1 "-12V" H 915 4273 50  0000 C CNN
+F 2 "" H 900 4100 50  0001 C CNN
+F 3 "" H 900 4100 50  0001 C CNN
+	1    900  4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 605962AE
+P 1550 4100
+AR Path="/605962AE" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/605962AE" Ref="#PWR0204"  Part="1" 
+F 0 "#PWR0204" H 1550 4200 50  0001 C CNN
+F 1 "-12V" H 1565 4273 50  0000 C CNN
+F 2 "" H 1550 4100 50  0001 C CNN
+F 3 "" H 1550 4100 50  0001 C CNN
+	1    1550 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 605962B4
+P 1550 2800
+AR Path="/605962B4" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/605962B4" Ref="#PWR0203"  Part="1" 
+F 0 "#PWR0203" H 1550 2650 50  0001 C CNN
+F 1 "+12V" H 1565 2973 50  0000 C CNN
+F 2 "" H 1550 2800 50  0001 C CNN
+F 3 "" H 1550 2800 50  0001 C CNN
+	1    1550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 605962BA
+P 900 2800
+AR Path="/605962BA" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/605962BA" Ref="#PWR0201"  Part="1" 
+F 0 "#PWR0201" H 900 2650 50  0001 C CNN
+F 1 "+12V" H 915 2973 50  0000 C CNN
+F 2 "" H 900 2800 50  0001 C CNN
+F 3 "" H 900 2800 50  0001 C CNN
+	1    900  2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 605962C0
+P 2100 3450
+AR Path="/605962C0" Ref="J?"  Part="1" 
+AR Path="/6054BDA2/605962C0" Ref="J201"  Part="1" 
+F 0 "J201" H 2132 3775 50  0000 C CNN
+F 1 "AudioJack2" H 2132 3684 50  0000 C CNN
+F 2 "ACJM-MV35:ACJM-MV35" H 2100 3450 50  0001 C CNN
+F 3 "~" H 2100 3450 50  0001 C CNN
+	1    2100 3450
+	1    0    0    1   
+$EndComp
+$Comp
+L SR1712F-0204-20F0A-N9-N-027:SR1712F-0204-20F0A-N9-N-027 SW?
+U 2 1 605962C6
+P 5900 3800
+AR Path="/605962C6" Ref="SW?"  Part="1" 
+AR Path="/6054BDA2/605962C6" Ref="SW201"  Part="2" 
+F 0 "SW201" H 5900 3850 50  0000 C CNN
+F 1 "SR1712F-0204-20F0A-N9-N-027" H 5900 3750 50  0000 C CNN
+F 2 "SR1712F-0204-20F0A-N9-N-027:SR1712F-0204-20F0A-N9-N-027" H 5900 3800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/13/R1712F-1522327.pdf" H 5900 3800 50  0001 C CNN
+	2    5900 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SR1712F-0204-20F0A-N9-N-027:SR1712F-0204-20F0A-N9-N-027 SW?
+U 1 1 605962CC
+P 5900 3050
+AR Path="/605962CC" Ref="SW?"  Part="2" 
+AR Path="/6054BDA2/605962CC" Ref="SW201"  Part="1" 
+F 0 "SW201" H 5900 3700 50  0000 C CNN
+F 1 "SR1712F-0204-20F0A-N9-N-027" H 5900 3600 50  0000 C CNN
+F 2 "SR1712F-0204-20F0A-N9-N-027:SR1712F-0204-20F0A-N9-N-027" H 5900 3050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/13/R1712F-1522327.pdf" H 5900 3050 50  0001 C CNN
+	1    5900 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 605962D8
+P 2700 3450
+AR Path="/605962D8" Ref="J?"  Part="1" 
+AR Path="/6054BDA2/605962D8" Ref="J202"  Part="1" 
+F 0 "J202" H 2732 3775 50  0000 C CNN
+F 1 "AudioJack2" H 2732 3684 50  0000 C CNN
+F 2 "ACJM-MV35:ACJM-MV35" H 2700 3450 50  0001 C CNN
+F 3 "~" H 2700 3450 50  0001 C CNN
+	1    2700 3450
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 605962DE
+P 3300 3450
+AR Path="/605962DE" Ref="J?"  Part="1" 
+AR Path="/6054BDA2/605962DE" Ref="J203"  Part="1" 
+F 0 "J203" H 3332 3775 50  0000 C CNN
+F 1 "AudioJack2" H 3332 3684 50  0000 C CNN
+F 2 "ACJM-MV35:ACJM-MV35" H 3300 3450 50  0001 C CNN
+F 3 "~" H 3300 3450 50  0001 C CNN
+	1    3300 3450
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 605962E4
+P 3900 3450
+AR Path="/605962E4" Ref="J?"  Part="1" 
+AR Path="/6054BDA2/605962E4" Ref="J205"  Part="1" 
+F 0 "J205" H 3932 3775 50  0000 C CNN
+F 1 "AudioJack2" H 3932 3684 50  0000 C CNN
+F 2 "ACJM-MV35:ACJM-MV35" H 3900 3450 50  0001 C CNN
+F 3 "~" H 3900 3450 50  0001 C CNN
+	1    3900 3450
+	1    0    0    1   
+$EndComp
+Text Notes 950  3700 0    50   ~ 0
+Freq Adj\nFine
+Text Notes 1600 3700 0    50   ~ 0
+Freq Adj\nCourse
+Wire Wire Line
+	3650 3450 3500 3450
+Wire Wire Line
+	3550 3250 3050 3250
+Wire Wire Line
+	3050 3250 3050 3450
+Wire Wire Line
+	3050 3450 2900 3450
+Wire Wire Line
+	3450 3150 2450 3150
+Wire Wire Line
+	2450 3150 2450 3450
+Wire Wire Line
+	2450 3450 2300 3450
+Wire Wire Line
+	3350 3050 1850 3050
+Wire Wire Line
+	1850 3050 1850 3450
+Wire Wire Line
+	1850 3450 1700 3450
+Wire Wire Line
+	3250 2450 1200 2450
+Wire Wire Line
+	1200 2450 1200 3450
+Text Label 1200 2450 0    50   ~ 0
+freq_adj_fine
+Text Label 1850 3050 0    50   ~ 0
+freq_adj_course
+Text Label 2450 3150 0    50   ~ 0
+fm_cv1
+Text Label 3050 3250 0    50   ~ 0
+fm_cv2
+Text Label 3650 3450 1    50   ~ 0
+fm_cv_lin
+Wire Wire Line
+	4100 3450 4100 3250
+Text Label 3750 3250 0    50   ~ 0
+sync
+Wire Wire Line
+	2400 3650 2400 3550
+Wire Wire Line
+	2400 3550 2300 3550
+Wire Wire Line
+	3000 3650 3000 3550
+Wire Wire Line
+	3000 3550 2900 3550
+Wire Wire Line
+	3600 3650 3600 3550
+Wire Wire Line
+	3600 3550 3500 3550
+Wire Wire Line
+	4200 3650 4200 3550
+Wire Wire Line
+	4200 3550 4100 3550
+$Comp
+L power:GND #PWR?
+U 1 1 60596307
+P 4200 3650
+AR Path="/60596307" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/60596307" Ref="#PWR0208"  Part="1" 
+F 0 "#PWR0208" H 4200 3400 50  0001 C CNN
+F 1 "GND" H 4205 3477 50  0000 C CNN
+F 2 "" H 4200 3650 50  0001 C CNN
+F 3 "" H 4200 3650 50  0001 C CNN
+	1    4200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6059630D
+P 3600 3650
+AR Path="/6059630D" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/6059630D" Ref="#PWR0207"  Part="1" 
+F 0 "#PWR0207" H 3600 3400 50  0001 C CNN
+F 1 "GND" H 3605 3477 50  0000 C CNN
+F 2 "" H 3600 3650 50  0001 C CNN
+F 3 "" H 3600 3650 50  0001 C CNN
+	1    3600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60596313
+P 3000 3650
+AR Path="/60596313" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/60596313" Ref="#PWR0206"  Part="1" 
+F 0 "#PWR0206" H 3000 3400 50  0001 C CNN
+F 1 "GND" H 3005 3477 50  0000 C CNN
+F 2 "" H 3000 3650 50  0001 C CNN
+F 3 "" H 3000 3650 50  0001 C CNN
+	1    3000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60596319
+P 2400 3650
+AR Path="/60596319" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/60596319" Ref="#PWR0205"  Part="1" 
+F 0 "#PWR0205" H 2400 3400 50  0001 C CNN
+F 1 "GND" H 2405 3477 50  0000 C CNN
+F 2 "" H 2400 3650 50  0001 C CNN
+F 3 "" H 2400 3650 50  0001 C CNN
+	1    2400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 6059631F
+P 4500 3450
+AR Path="/6059631F" Ref="J?"  Part="1" 
+AR Path="/6054BDA2/6059631F" Ref="J206"  Part="1" 
+F 0 "J206" H 4532 3775 50  0000 C CNN
+F 1 "AudioJack2" H 4532 3684 50  0000 C CNN
+F 2 "ACJM-MV35:ACJM-MV35" H 4500 3450 50  0001 C CNN
+F 3 "~" H 4500 3450 50  0001 C CNN
+	1    4500 3450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4800 3650 4800 3550
+Wire Wire Line
+	4800 3550 4700 3550
+$Comp
+L power:GND #PWR?
+U 1 1 60596327
+P 4800 3650
+AR Path="/60596327" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/60596327" Ref="#PWR0210"  Part="1" 
+F 0 "#PWR0210" H 4800 3400 50  0001 C CNN
+F 1 "GND" H 4805 3477 50  0000 C CNN
+F 2 "" H 4800 3650 50  0001 C CNN
+F 3 "" H 4800 3650 50  0001 C CNN
+	1    4800 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3450 4700 3100
+Text Label 4700 3300 2    50   ~ 0
+shape_cv
+Wire Wire Line
+	4100 3250 3750 3250
+$Comp
+L Device:R_US R?
+U 1 1 60596342
+P 5850 4600
+AR Path="/60596342" Ref="R?"  Part="1" 
+AR Path="/6054BDA2/60596342" Ref="R206"  Part="1" 
+F 0 "R206" V 5645 4600 50  0000 C CNN
+F 1 "10k" V 5736 4600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5890 4590 50  0001 C CNN
+F 3 "~" H 5850 4600 50  0001 C CNN
+	1    5850 4600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_POT_US RV?
+U 1 1 60596348
+P 6250 4600
+AR Path="/60596348" Ref="RV?"  Part="1" 
+AR Path="/6054BDA2/60596348" Ref="RV203"  Part="1" 
+F 0 "RV203" H 6183 4646 50  0000 R CNN
+F 1 "100k" H 6183 4555 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 6250 4600 50  0001 C CNN
+F 3 "~" H 6250 4600 50  0001 C CNN
+	1    6250 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6059634E
+P 6050 4800
+AR Path="/6059634E" Ref="C?"  Part="1" 
+AR Path="/6054BDA2/6059634E" Ref="C201"  Part="1" 
+F 0 "C201" H 6165 4846 50  0000 L CNN
+F 1 ".1u" H 6165 4755 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 6088 4650 50  0001 C CNN
+F 3 "~" H 6050 4800 50  0001 C CNN
+	1    6050 4800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4600 6050 4600
+Wire Wire Line
+	6050 4650 6050 4600
+Connection ~ 6050 4600
+Wire Wire Line
+	6050 4600 6000 4600
+Wire Wire Line
+	5700 4600 5600 4600
+Wire Wire Line
+	5600 4800 5650 4800
+Wire Wire Line
+	5650 4800 5650 4950
+$Comp
+L Device:D_Zener D?
+U 1 1 6059635B
+P 7300 4600
+AR Path="/6059635B" Ref="D?"  Part="1" 
+AR Path="/6054BDA2/6059635B" Ref="D204"  Part="1" 
+F 0 "D204" V 7254 4680 50  0000 L CNN
+F 1 "NZX5V1B" V 7450 4650 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7300 4600 50  0001 C CNN
+F 3 "~" H 7300 4600 50  0001 C CNN
+	1    7300 4600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 60596361
+P 6850 4600
+AR Path="/60596361" Ref="C?"  Part="1" 
+AR Path="/6054BDA2/60596361" Ref="C203"  Part="1" 
+F 0 "C203" H 6965 4646 50  0000 L CNN
+F 1 "1u" H 6965 4555 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 6850 4600 50  0001 C CNN
+F 3 "~" H 6850 4600 50  0001 C CNN
+	1    6850 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 60596367
+P 6250 5950
+AR Path="/60596367" Ref="C?"  Part="1" 
+AR Path="/6054BDA2/60596367" Ref="C202"  Part="1" 
+F 0 "C202" H 6135 5904 50  0000 R CNN
+F 1 "1u" H 6135 5995 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 6250 5950 50  0001 C CNN
+F 3 "~" H 6250 5950 50  0001 C CNN
+	1    6250 5950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 6059636D
+P 6700 5950
+AR Path="/6059636D" Ref="D?"  Part="1" 
+AR Path="/6054BDA2/6059636D" Ref="D203"  Part="1" 
+F 0 "D203" V 6746 5870 50  0000 R CNN
+F 1 "NZX5V1B" V 6550 5900 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6700 5950 50  0001 C CNN
+F 3 "~" H 6700 5950 50  0001 C CNN
+	1    6700 5950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60596373
+P 7300 4200
+AR Path="/60596373" Ref="R?"  Part="1" 
+AR Path="/6054BDA2/60596373" Ref="R208"  Part="1" 
+F 0 "R208" H 7232 4154 50  0000 R CNN
+F 1 "10k" H 7232 4245 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7340 4190 50  0001 C CNN
+F 3 "~" H 7300 4200 50  0001 C CNN
+	1    7300 4200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60596379
+P 6700 5550
+AR Path="/60596379" Ref="R?"  Part="1" 
+AR Path="/6054BDA2/60596379" Ref="R207"  Part="1" 
+F 0 "R207" H 6632 5504 50  0000 R CNN
+F 1 "10k" H 6632 5595 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6740 5540 50  0001 C CNN
+F 3 "~" H 6700 5550 50  0001 C CNN
+	1    6700 5550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7300 4450 7300 4400
+Wire Wire Line
+	7300 4400 6850 4400
+Wire Wire Line
+	6250 4400 6250 4450
+Connection ~ 7300 4400
+Wire Wire Line
+	7300 4400 7300 4350
+Wire Wire Line
+	6850 4450 6850 4400
+Connection ~ 6850 4400
+Wire Wire Line
+	6850 4400 6250 4400
+Wire Wire Line
+	7300 3950 7300 4050
+Wire Wire Line
+	6850 4850 6850 4750
+$Comp
+L power:GND #PWR?
+U 1 1 60596389
+P 6850 4850
+AR Path="/60596389" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/60596389" Ref="#PWR0220"  Part="1" 
+F 0 "#PWR0220" H 6850 4600 50  0001 C CNN
+F 1 "GND" H 6855 4677 50  0000 C CNN
+F 2 "" H 6850 4850 50  0001 C CNN
+F 3 "" H 6850 4850 50  0001 C CNN
+	1    6850 4850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4850 7300 4750
+$Comp
+L power:GND #PWR?
+U 1 1 60596390
+P 7300 4850
+AR Path="/60596390" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/60596390" Ref="#PWR0222"  Part="1" 
+F 0 "#PWR0222" H 7300 4600 50  0001 C CNN
+F 1 "GND" H 7305 4677 50  0000 C CNN
+F 2 "" H 7300 4850 50  0001 C CNN
+F 3 "" H 7300 4850 50  0001 C CNN
+	1    7300 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 60596396
+P 7300 3950
+AR Path="/60596396" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/60596396" Ref="#PWR0221"  Part="1" 
+F 0 "#PWR0221" H 7300 3800 50  0001 C CNN
+F 1 "+12V" H 7315 4123 50  0000 C CNN
+F 2 "" H 7300 3950 50  0001 C CNN
+F 3 "" H 7300 3950 50  0001 C CNN
+	1    7300 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 6059639C
+P 6700 5300
+AR Path="/6059639C" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/6059639C" Ref="#PWR0218"  Part="1" 
+F 0 "#PWR0218" H 6700 5400 50  0001 C CNN
+F 1 "-12V" H 6715 5473 50  0000 C CNN
+F 2 "" H 6700 5300 50  0001 C CNN
+F 3 "" H 6700 5300 50  0001 C CNN
+	1    6700 5300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 5300 6700 5400
+Wire Wire Line
+	6700 5700 6700 5750
+Wire Wire Line
+	6700 5750 6250 5750
+Wire Wire Line
+	6250 5750 6250 5800
+Connection ~ 6700 5750
+Wire Wire Line
+	6700 5750 6700 5800
+Connection ~ 6250 5750
+Wire Wire Line
+	6250 6200 6250 6100
+Wire Wire Line
+	6700 6200 6700 6100
+$Comp
+L power:GND #PWR?
+U 1 1 605963AB
+P 6700 6200
+AR Path="/605963AB" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/605963AB" Ref="#PWR0219"  Part="1" 
+F 0 "#PWR0219" H 6700 5950 50  0001 C CNN
+F 1 "GND" H 6705 6027 50  0000 C CNN
+F 2 "" H 6700 6200 50  0001 C CNN
+F 3 "" H 6700 6200 50  0001 C CNN
+	1    6700 6200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605963B1
+P 6250 6200
+AR Path="/605963B1" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/605963B1" Ref="#PWR0217"  Part="1" 
+F 0 "#PWR0217" H 6250 5950 50  0001 C CNN
+F 1 "GND" H 6255 6027 50  0000 C CNN
+F 2 "" H 6250 6200 50  0001 C CNN
+F 3 "" H 6250 6200 50  0001 C CNN
+	1    6250 6200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605963B7
+P 6050 5050
+AR Path="/605963B7" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/605963B7" Ref="#PWR0216"  Part="1" 
+F 0 "#PWR0216" H 6050 4800 50  0001 C CNN
+F 1 "GND" H 6055 4877 50  0000 C CNN
+F 2 "" H 6050 5050 50  0001 C CNN
+F 3 "" H 6050 5050 50  0001 C CNN
+	1    6050 5050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5050 6050 4950
+Wire Wire Line
+	6250 4750 6250 5750
+Wire Wire Line
+	3850 3000 4900 3000
+Wire Wire Line
+	3950 3100 4700 3100
+Text Label 4650 3000 0    50   ~ 0
+shape_offset
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 605963C4
+P 8850 3500
+AR Path="/605963C4" Ref="J?"  Part="1" 
+AR Path="/6054BDA2/605963C4" Ref="J208"  Part="1" 
+F 0 "J208" H 8882 3825 50  0000 C CNN
+F 1 "AudioJack2" H 8882 3734 50  0000 C CNN
+F 2 "ACJM-MV35:ACJM-MV35" H 8850 3500 50  0001 C CNN
+F 3 "~" H 8850 3500 50  0001 C CNN
+	1    8850 3500
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 605963CA
+P 9500 3500
+AR Path="/605963CA" Ref="J?"  Part="1" 
+AR Path="/6054BDA2/605963CA" Ref="J209"  Part="1" 
+F 0 "J209" H 9532 3825 50  0000 C CNN
+F 1 "AudioJack2" H 9532 3734 50  0000 C CNN
+F 2 "ACJM-MV35:ACJM-MV35" H 9500 3500 50  0001 C CNN
+F 3 "~" H 9500 3500 50  0001 C CNN
+	1    9500 3500
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 605963D0
+P 10150 3500
+AR Path="/605963D0" Ref="J?"  Part="1" 
+AR Path="/6054BDA2/605963D0" Ref="J210"  Part="1" 
+F 0 "J210" H 10182 3825 50  0000 C CNN
+F 1 "AudioJack2" H 10182 3734 50  0000 C CNN
+F 2 "ACJM-MV35:ACJM-MV35" H 10150 3500 50  0001 C CNN
+F 3 "~" H 10150 3500 50  0001 C CNN
+	1    10150 3500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4900 4950 5650 4950
+Wire Wire Line
+	5000 4700 4900 4700
+Connection ~ 4900 4700
+Wire Wire Line
+	4900 4700 4900 4950
+Wire Wire Line
+	4900 3000 4900 4700
+Wire Wire Line
+	4050 2900 5000 2900
+Wire Wire Line
+	5000 2900 5000 3650
+Wire Wire Line
+	5000 3650 5500 3650
+Wire Wire Line
+	4150 2800 5100 2800
+Wire Wire Line
+	5100 2800 5100 3550
+Wire Wire Line
+	5100 3550 5500 3550
+Wire Wire Line
+	5500 2700 4250 2700
+Wire Wire Line
+	4350 2600 5200 2600
+Wire Wire Line
+	5200 2600 5200 3350
+Wire Wire Line
+	5200 3350 5500 3350
+Text Label 4800 2900 2    50   ~ 0
+sine
+Text Label 4650 2800 0    50   ~ 0
+tri
+Text Label 4650 2700 0    50   ~ 0
+square
+Text Label 4650 2600 0    50   ~ 0
+ramp
+$Comp
+L power:GND #PWR?
+U 1 1 605963ED
+P 5500 2600
+AR Path="/605963ED" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/605963ED" Ref="#PWR0211"  Part="1" 
+F 0 "#PWR0211" H 5500 2350 50  0001 C CNN
+F 1 "GND" H 5505 2427 50  0000 C CNN
+F 2 "" H 5500 2600 50  0001 C CNN
+F 3 "" H 5500 2600 50  0001 C CNN
+	1    5500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605963F3
+P 5500 2800
+AR Path="/605963F3" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/605963F3" Ref="#PWR0212"  Part="1" 
+F 0 "#PWR0212" H 5500 2550 50  0001 C CNN
+F 1 "GND" H 5505 2627 50  0000 C CNN
+F 2 "" H 5500 2800 50  0001 C CNN
+F 3 "" H 5500 2800 50  0001 C CNN
+	1    5500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605963F9
+P 5500 2900
+AR Path="/605963F9" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/605963F9" Ref="#PWR0213"  Part="1" 
+F 0 "#PWR0213" H 5500 2650 50  0001 C CNN
+F 1 "GND" H 5505 2727 50  0000 C CNN
+F 2 "" H 5500 2900 50  0001 C CNN
+F 3 "" H 5500 2900 50  0001 C CNN
+	1    5500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605963FF
+P 5500 3450
+AR Path="/605963FF" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/605963FF" Ref="#PWR0214"  Part="1" 
+F 0 "#PWR0214" H 5500 3200 50  0001 C CNN
+F 1 "GND" H 5505 3277 50  0000 C CNN
+F 2 "" H 5500 3450 50  0001 C CNN
+F 3 "" H 5500 3450 50  0001 C CNN
+	1    5500 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3550 8400 3550
+Wire Wire Line
+	8400 3550 8400 2450
+Wire Wire Line
+	6400 2800 8500 2800
+Wire Wire Line
+	8500 2800 8500 2450
+Text Label 7400 3550 0    50   ~ 0
+waveshaper_in
+Text Label 7350 2800 0    50   ~ 0
+waveshaper_bypass
+Wire Wire Line
+	8600 2450 8600 3950
+Text Label 8600 3100 3    50   ~ 0
+vca_offset
+Wire Wire Line
+	8700 2450 8700 3300
+Wire Wire Line
+	8700 3300 9150 3300
+Wire Wire Line
+	9150 3300 9150 3500
+Wire Wire Line
+	9150 3500 9050 3500
+Wire Wire Line
+	8800 2450 8800 3200
+Wire Wire Line
+	8800 3200 9800 3200
+Wire Wire Line
+	9800 3200 9800 3500
+Wire Wire Line
+	9800 3500 9700 3500
+Wire Wire Line
+	10350 3500 10450 3500
+Wire Wire Line
+	10450 3500 10450 3100
+Wire Wire Line
+	10450 3100 8900 3100
+Wire Wire Line
+	8900 3100 8900 2450
+Wire Wire Line
+	9150 3700 9150 3600
+Wire Wire Line
+	9150 3600 9050 3600
+$Comp
+L power:GND #PWR?
+U 1 1 6059641B
+P 9150 3700
+AR Path="/6059641B" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/6059641B" Ref="#PWR0227"  Part="1" 
+F 0 "#PWR0227" H 9150 3450 50  0001 C CNN
+F 1 "GND" H 9155 3527 50  0000 C CNN
+F 2 "" H 9150 3700 50  0001 C CNN
+F 3 "" H 9150 3700 50  0001 C CNN
+	1    9150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 3700 9800 3600
+Wire Wire Line
+	9800 3600 9700 3600
+$Comp
+L power:GND #PWR?
+U 1 1 60596423
+P 9800 3700
+AR Path="/60596423" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/60596423" Ref="#PWR0231"  Part="1" 
+F 0 "#PWR0231" H 9800 3450 50  0001 C CNN
+F 1 "GND" H 9805 3527 50  0000 C CNN
+F 2 "" H 9800 3700 50  0001 C CNN
+F 3 "" H 9800 3700 50  0001 C CNN
+	1    9800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 3700 10450 3600
+Wire Wire Line
+	10450 3600 10350 3600
+$Comp
+L power:GND #PWR?
+U 1 1 6059642B
+P 10450 3700
+AR Path="/6059642B" Ref="#PWR?"  Part="1" 
+AR Path="/6054BDA2/6059642B" Ref="#PWR0232"  Part="1" 
+F 0 "#PWR0232" H 10450 3450 50  0001 C CNN
+F 1 "GND" H 10455 3527 50  0000 C CNN
+F 2 "" H 10450 3700 50  0001 C CNN
+F 3 "" H 10450 3700 50  0001 C CNN
+	1    10450 3700
+	1    0    0    -1  
+$EndComp
+Text Label 8750 3300 0    50   ~ 0
+vca_cv1
+Text Label 9150 3200 0    50   ~ 0
+vca_cv2
+Text Label 9550 3100 0    50   ~ 0
+out
+$Comp
+L Amplifier_Operational:TL072 U201
+U 1 1 6047E64A
+P 5300 4700
+F 0 "U201" H 5300 5067 50  0000 C CNN
+F 1 "TL072" H 5300 4976 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5300 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5300 4700 50  0001 C CNN
+	1    5300 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U201
+U 2 1 60481C76
+P 8450 5600
+F 0 "U201" H 8450 5967 50  0000 C CNN
+F 1 "TL072" H 8450 5876 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 8450 5600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8450 5600 50  0001 C CNN
+	2    8450 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U201
+U 3 1 60486DF9
+P 9450 5550
+F 0 "U201" H 9408 5596 50  0000 L CNN
+F 1 "TL072" H 9408 5505 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 9450 5550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9450 5550 50  0001 C CNN
+	3    9450 5550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8150 5500
+NoConn ~ 8150 5700
+NoConn ~ 8750 5600
+$Comp
+L power:+12V #PWR0229
+U 1 1 60492586
+P 9350 5150
+F 0 "#PWR0229" H 9350 5000 50  0001 C CNN
+F 1 "+12V" H 9365 5323 50  0000 C CNN
+F 2 "" H 9350 5150 50  0001 C CNN
+F 3 "" H 9350 5150 50  0001 C CNN
+	1    9350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR0230
+U 1 1 60493D82
+P 9350 5950
+F 0 "#PWR0230" H 9350 6050 50  0001 C CNN
+F 1 "-12V" H 9365 6123 50  0000 C CNN
+F 2 "" H 9350 5950 50  0001 C CNN
+F 3 "" H 9350 5950 50  0001 C CNN
+	1    9350 5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9350 5950 9350 5850
+Wire Wire Line
+	9350 5250 9350 5150
+$Comp
+L Connector_Generic:Conn_01x09 J207
+U 1 1 604A2D32
+P 8800 2250
+F 0 "J207" V 9017 2246 50  0000 C CNN
+F 1 "Conn_01x09" V 8926 2246 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 8800 2250 50  0001 C CNN
+F 3 "~" H 8800 2250 50  0001 C CNN
+	1    8800 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:-12V #PWR0225
+U 1 1 604A584D
+P 9000 2550
+F 0 "#PWR0225" H 9000 2650 50  0001 C CNN
+F 1 "-12V" H 9015 2723 50  0000 C CNN
+F 2 "" H 9000 2550 50  0001 C CNN
+F 3 "" H 9000 2550 50  0001 C CNN
+	1    9000 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0228
+U 1 1 604A6686
+P 9200 2550
+F 0 "#PWR0228" H 9200 2400 50  0001 C CNN
+F 1 "+12V" H 9215 2723 50  0000 C CNN
+F 2 "" H 9200 2550 50  0001 C CNN
+F 3 "" H 9200 2550 50  0001 C CNN
+	1    9200 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0226
+U 1 1 604A77C6
+P 9100 2550
+F 0 "#PWR0226" H 9100 2300 50  0001 C CNN
+F 1 "GND" H 9105 2377 50  0000 C CNN
+F 2 "" H 9100 2550 50  0001 C CNN
+F 3 "" H 9100 2550 50  0001 C CNN
+	1    9100 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2550 9100 2450
+Wire Wire Line
+	9200 2550 9200 2450
+Wire Wire Line
+	9000 2550 9000 2450
+$Comp
+L Device:R_US R?
+U 1 1 60490348
+P 4550 1800
+AR Path="/6054CAA6/6055B35C/60490348" Ref="R?"  Part="1" 
+AR Path="/6054BDA2/60490348" Ref="R205"  Part="1" 
+F 0 "R205" H 4618 1846 50  0000 L CNN
+F 1 "1k" H 4618 1755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4590 1790 50  0001 C CNN
+F 3 "~" H 4550 1800 50  0001 C CNN
+	1    4550 1800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4550 1650 4550 1550
+Wire Wire Line
+	4550 2000 4550 1950
+Text Label 4550 1150 0    50   ~ 0
+vca_led
+$Comp
+L Device:LED D?
+U 1 1 6049FBA3
+P 5550 2250
+AR Path="/6054CAA6/6055B35C/6049FBA3" Ref="D?"  Part="1" 
+AR Path="/6054BDA2/6049FBA3" Ref="D202"  Part="1" 
+F 0 "D202" V 5589 2132 50  0000 R CNN
+F 1 "LED" V 5498 2132 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 5550 2250 50  0001 C CNN
+F 3 "~" H 5550 2250 50  0001 C CNN
+	1    5550 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 2250 5700 2250
+$Comp
+L power:GND #PWR0215
+U 1 1 604A53DF
+P 5800 2250
+F 0 "#PWR0215" H 5800 2000 50  0001 C CNN
+F 1 "GND" H 5805 2077 50  0000 C CNN
+F 2 "" H 5800 2250 50  0001 C CNN
+F 3 "" H 5800 2250 50  0001 C CNN
+	1    5800 2250
+	0    -1   -1   0   
+$EndComp
+Text Label 5350 2250 2    50   ~ 0
+fold_led
+Wire Wire Line
+	3250 900  3250 2450
+Wire Wire Line
+	3350 900  3350 3050
+Wire Wire Line
+	3450 900  3450 3150
+Wire Wire Line
+	3550 900  3550 3250
+Wire Wire Line
+	3650 900  3650 3450
+Wire Wire Line
+	3750 900  3750 3250
+Wire Wire Line
+	3850 900  3850 3000
+Wire Wire Line
+	3950 900  3950 3100
+Wire Wire Line
+	4050 900  4050 2900
+Wire Wire Line
+	4150 900  4150 2800
+Wire Wire Line
+	4250 900  4250 2700
+Wire Wire Line
+	4350 900  4350 2600
+$Comp
+L Connector_Generic:Conn_01x14 J204
+U 1 1 605469EE
+P 3850 700
+F 0 "J204" V 4067 646 50  0000 C CNN
+F 1 "Conn_01x14" V 3976 646 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 3850 700 50  0001 C CNN
+F 3 "~" H 3850 700 50  0001 C CNN
+	1    3850 700 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 2250 4450 900 
+Wire Wire Line
+	4450 2250 5400 2250
+Wire Wire Line
+	4550 900  4550 1250
+$Comp
+L Device:LED D?
+U 1 1 60490342
+P 4550 1400
+AR Path="/6054CAA6/6055B35C/60490342" Ref="D?"  Part="1" 
+AR Path="/6054BDA2/60490342" Ref="D201"  Part="1" 
+F 0 "D201" V 4589 1282 50  0000 R CNN
+F 1 "LED" V 4498 1282 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4550 1400 50  0001 C CNN
+F 3 "~" H 4550 1400 50  0001 C CNN
+	1    4550 1400
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 606CEB9B
+P 4550 2000
+F 0 "#PWR?" H 4550 1850 50  0001 C CNN
+F 1 "+12V" H 4565 2173 50  0000 C CNN
+F 2 "" H 4550 2000 50  0001 C CNN
+F 3 "" H 4550 2000 50  0001 C CNN
+	1    4550 2000
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

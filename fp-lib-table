@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name SR1712F-0204-20F0A-N9-N-027)(type KiCad)(uri ${KIPRJMOD}/SR1712F-0204-20F0A-N9-N-027.pretty)(options "")(descr ""))
+  (lib (name ACJM-MV35)(type KiCad)(uri ${KIPRJMOD}/ACJM-MV35.pretty)(options "")(descr ""))
+)
