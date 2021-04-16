@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name DMMT3904W)(type Legacy)(uri ${KIPRJMOD}/DMMT3904W.lib)(options "")(descr ""))
   (lib (name SR1712F-0204-20F0A-N9-N-027)(type Legacy)(uri ${KIPRJMOD}/SR1712F-0204-20F0A-N9-N-027.lib)(options "")(descr ""))
+  (lib (name A-2563)(type Legacy)(uri ${KIPRJMOD}/A-2563.lib)(options "")(descr ""))
 )
