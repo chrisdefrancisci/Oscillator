@@ -1353,28 +1353,6 @@ Wire Wire Line
 Connection ~ 9600 950 
 $Comp
 L Amplifier_Operational:LM13700 U502
-U 1 1 604F143D
-P 9100 5150
-F 0 "U502" H 9100 5517 50  0000 C CNN
-F 1 "LM13700" H 9100 5426 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 8800 5175 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 8800 5175 50  0001 C CNN
-	1    9100 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM13700 U502
-U 2 1 604F4C10
-P 10150 5150
-F 0 "U502" H 10050 5498 50  0000 C CNN
-F 1 "LM13700" H 10050 5407 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 9850 5175 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 9850 5175 50  0001 C CNN
-	2    10150 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM13700 U502
 U 5 1 604F6C6B
 P 10900 1350
 F 0 "U502" H 10858 1396 50  0000 L CNN
@@ -1408,13 +1386,6 @@ F 3 "" H 10800 1750 50  0001 C CNN
 	1    10800 1750
 	-1   0    0    1   
 $EndComp
-NoConn ~ 9850 5150
-NoConn ~ 10250 5250
-NoConn ~ 9400 5250
-NoConn ~ 9400 5150
-NoConn ~ 8800 5250
-NoConn ~ 8800 5150
-NoConn ~ 8800 5050
 Wire Wire Line
 	10800 1650 10800 1750
 $EndSCHEMATC

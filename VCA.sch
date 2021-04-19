@@ -404,10 +404,10 @@ F 3 "" H 3400 4000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:LM13700 U402
+L Amplifier_Operational:LM13700 U502
 U 1 1 603B900F
 P 3250 4650
-F 0 "U402" H 3250 4283 50  0000 C CNN
+F 0 "U502" H 3250 4283 50  0000 C CNN
 F 1 "LM13700" H 3250 4374 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 2950 4675 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 2950 4675 50  0001 C CNN
@@ -415,92 +415,16 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 2950 4675 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:LM13700 U402
+L Amplifier_Operational:LM13700 U502
 U 2 1 603BBB89
 P 4000 4650
-F 0 "U402" H 3900 4998 50  0000 C CNN
+F 0 "U502" H 3900 4998 50  0000 C CNN
 F 1 "LM13700" H 3900 4907 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 3700 4675 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 3700 4675 50  0001 C CNN
 	2    4000 4650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Amplifier_Operational:LM13700 U402
-U 5 1 603BCA2E
-P 10600 1350
-F 0 "U402" H 10558 1396 50  0000 L CNN
-F 1 "LM13700" H 10558 1305 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 10300 1375 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 10300 1375 50  0001 C CNN
-	5    10600 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10500 1050 10500 1000
-Wire Wire Line
-	10500 1700 10500 1650
-$Comp
-L power:-12V #PWR0419
-U 1 1 603C5D74
-P 10500 1700
-F 0 "#PWR0419" H 10500 1800 50  0001 C CNN
-F 1 "-12V" H 10515 1873 50  0000 C CNN
-F 2 "" H 10500 1700 50  0001 C CNN
-F 3 "" H 10500 1700 50  0001 C CNN
-	1    10500 1700
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+12V #PWR0418
-U 1 1 603C6B83
-P 10500 1000
-F 0 "#PWR0418" H 10500 850 50  0001 C CNN
-F 1 "+12V" H 10515 1173 50  0000 C CNN
-F 2 "" H 10500 1000 50  0001 C CNN
-F 3 "" H 10500 1000 50  0001 C CNN
-	1    10500 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0415
-U 1 1 603C7C2A
-P 10000 1350
-F 0 "#PWR0415" H 10000 1100 50  0001 C CNN
-F 1 "GND" H 10005 1177 50  0000 C CNN
-F 2 "" H 10000 1350 50  0001 C CNN
-F 3 "" H 10000 1350 50  0001 C CNN
-	1    10000 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C403
-U 1 1 603C9F79
-P 10250 1150
-F 0 "C403" H 10365 1196 50  0000 L CNN
-F 1 ".1u" H 10365 1105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 10288 1000 50  0001 C CNN
-F 3 "~" H 10250 1150 50  0001 C CNN
-	1    10250 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C404
-U 1 1 603CFBBF
-P 10250 1550
-F 0 "C404" H 10365 1596 50  0000 L CNN
-F 1 ".1u" H 10365 1505 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 10288 1400 50  0001 C CNN
-F 3 "~" H 10250 1550 50  0001 C CNN
-	1    10250 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10250 1700 10500 1700
-Connection ~ 10500 1700
-Wire Wire Line
-	10250 1000 10500 1000
-Connection ~ 10500 1000
 Wire Wire Line
 	3700 4100 3700 4550
 Wire Wire Line
@@ -753,13 +677,6 @@ Text Notes 1050 4300 0    50   ~ 0
 Might want decoupling cap
 Text HLabel 5550 1500 1    50   Output ~ 0
 LED
-Wire Wire Line
-	10250 1300 10250 1350
-Wire Wire Line
-	10250 1350 10000 1350
-Connection ~ 10250 1350
-Wire Wire Line
-	10250 1350 10250 1400
 Text Notes 3200 5800 0    50   ~ 0
 bias\nadjust
 $EndSCHEMATC
