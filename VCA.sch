@@ -679,4 +679,8 @@ Text HLabel 5550 1500 1    50   Output ~ 0
 LED
 Text Notes 3200 5800 0    50   ~ 0
 bias\nadjust
+Text Notes 1800 1100 0    50   ~ 0
+This is WRONG\nOP AMPS NEED TO BE FLIPPED
+Text Notes 1300 1400 0    50   ~ 0
+U605D + terminal should maybe be grounded as well. \nThis approach didn’t work.
 $EndSCHEMATC
