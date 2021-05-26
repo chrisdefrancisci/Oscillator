@@ -17,12 +17,12 @@ $Comp
 L Amplifier_Operational:TL074 U605
 U 4 1 6035B5C1
 P 2400 3000
-F 0 "U605" H 2400 3367 50  0000 C CNN
-F 1 "TL074" H 2400 3276 50  0000 C CNN
+F 0 "U605" H 2650 3250 50  0000 C CNN
+F 1 "TL074" H 2600 3150 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2400 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2400 3000 50  0001 C CNN
 	4    2400 3000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL074 U605
@@ -33,7 +33,7 @@ F 1 "TL074" H 4350 2126 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 4350 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 4350 1850 50  0001 C CNN
 	3    4350 1850
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_US R407
@@ -679,4 +679,10 @@ Text HLabel 5550 1500 1    50   Output ~ 0
 LED
 Text Notes 3200 5800 0    50   ~ 0
 bias\nadjust
+Text Notes 900  3700 0    50   ~ 0
+something about this is kind of unstable - just ground it
+Text Notes 1400 1050 0    50   ~ 0
+with + pin grounded, feedback is too high\nuse Rf=680 for the most variability, but will never truly turn off
+Text Notes 1400 1400 0    50   ~ 0
+if using 1k, will get a little lower, but still won’t turn off\nin addition, will have a large “saturated” region where \nchanging voltage doesn’t do anything
 $EndSCHEMATC
