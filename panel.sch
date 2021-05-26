@@ -1149,4 +1149,26 @@ F 3 "" H 4550 2000 50  0001 C CNN
 	1    4550 2000
 	-1   0    0    1   
 $EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 60AEEC78
+P 2750 5650
+F 0 "H?" H 2850 5696 50  0000 L CNN
+F 1 "MountingHole" H 2850 5605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 2750 5650 50  0001 C CNN
+F 3 "~" H 2750 5650 50  0001 C CNN
+	1    2750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 60AF2FA6
+P 1900 5650
+F 0 "H?" H 2000 5696 50  0000 L CNN
+F 1 "MountingHole" H 2000 5605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 1900 5650 50  0001 C CNN
+F 3 "~" H 1900 5650 50  0001 C CNN
+	1    1900 5650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

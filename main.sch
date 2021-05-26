@@ -494,4 +494,26 @@ Wire Wire Line
 	8000 1400 8150 1400
 Wire Wire Line
 	8150 2100 7400 2100
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 60AFB2FA
+P 1800 5150
+F 0 "H?" H 1900 5196 50  0000 L CNN
+F 1 "MountingHole" H 1900 5105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 1800 5150 50  0001 C CNN
+F 3 "~" H 1800 5150 50  0001 C CNN
+	1    1800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 60AFF86F
+P 3000 5250
+F 0 "H?" H 3100 5296 50  0000 L CNN
+F 1 "MountingHole" H 3100 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 3000 5250 50  0001 C CNN
+F 3 "~" H 3000 5250 50  0001 C CNN
+	1    3000 5250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
